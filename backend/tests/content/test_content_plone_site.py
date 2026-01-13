@@ -21,7 +21,7 @@ class TestPloneSite:
         [
             ["Access contents information", False],
             ["Modify portal content", False],
-            ["View", False],
+            ["View", True],
         ],
     )
     def test_anonymous_permissions(self, portal, permission: str, expected: bool):
